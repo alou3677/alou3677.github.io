@@ -8,6 +8,13 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  color: rgb(20, 56, 130);
+  font-family: "Architects Daughter";
+  font-size: 48px;
+  text-align: left;
+}
+
 img.resize {
   max-width:30%;
   max-height:30%;
