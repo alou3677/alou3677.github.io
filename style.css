@@ -1,3 +1,17 @@
+body {
+  background-color: #FFF;
+  margin: 0;
+  padding: 20;
+}
+
+.header {
+  background-image: url("https://c1.staticflickr.com/1/604/31496655683_1339cce770_b.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+}
+
 h1 {
   color: rgb(0, 36, 110);
   font-family: "Architects Daughter";
