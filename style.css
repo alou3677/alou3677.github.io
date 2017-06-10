@@ -8,7 +8,7 @@ body {
   background-image: url("https://c1.staticflickr.com/1/604/31496655683_1339cce770_b.jpg");
   background-position: center center;
   background-size: cover;
-  height: 700px;
+  height: 1000px;
   width: 100%;
 }
 
@@ -16,29 +16,25 @@ body {
   margin: 0 auto;
   position: relative;
   text-align: center;
-  top: 20%
+  top: 0%
   width: 60%
 }
 
 .name h1 {
   font-family: 'Satisfy';
-  line-height: 90px;
+  line-height: 100px;
 }
 
 h1 {
-  color: #FFF, rgb(0, 36, 110);
+  color: #FFF;
+  font-family: 'Montserrat';
   font-size: 88px;
-  /*font-style: bold;*/
-  /*font-weight: 800;*/
-  letter-spacing: 0.25em;
-  text-align: center;
 }
 
 h2 {
-  color: #FFF, rgb(20, 56, 130);
-  font-family: "Architects Daughter";
+  color: #FFF;
+  font-family: 'Open Sans';
   font-size: 36px;
-  text-align: center;
 }
 
 li {
