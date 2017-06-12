@@ -1,13 +1,15 @@
 body {
-  background-color: #FFF;
+  background-color: #03B;
+  background-image: url("https://c1.staticflickr.com/1/604/31496655683_1339cce770_b.jpg");
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
   margin: 0;
   padding: 0;
 }
 
 .header {
-  background-image: url("https://c1.staticflickr.com/1/604/31496655683_1339cce770_b.jpg");
-  background-position: left center;
-  background-size: cover;
   height: 1000px;
   width: 100%;
 }
@@ -17,12 +19,12 @@ body {
   position: relative;
   text-align: center;
   top: 10%;
-  width: 40%;
+  width: 600px;
 }
 
 .name h1 {
   font-family: 'Satisfy';
-  font-size: 110px;
+  font-size: 120px;
   line-height: 30px;
 }
 
@@ -37,12 +39,34 @@ h2 {
   color: #FFF;
   font-family: 'Open Sans';
   font-size: 36px;
+  font-weight: 300;
+}
+
+h3 {
+  color: #FFF;
+  font-family: 'Satisfy';
+  font-size: 48px;
+  line-height: 30px;
+}
+
+h4 {
+  color: #FFF;
+  font-family: 'Open Sans';
+  font-size: 30px;
   font-weight: 100;
 }
 
+.body-items {
+  position: relative;
+}
+
+ul {
+  margin: 150px;
+  width: 70%;
+}
+
 li {
-  margin: 0%;
-  padding: 0;
+  color: #FFF;
 }
 
 img.resize {
