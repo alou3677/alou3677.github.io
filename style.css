@@ -1,5 +1,5 @@
 body {
-  background-color: #03B;
+  background-color: #000;
   background-image: url("https://c1.staticflickr.com/1/604/31496655683_1339cce770_b.jpg");
   background-position: left center;
   background-repeat: no-repeat;
@@ -45,15 +45,21 @@ h2 {
 h3 {
   color: #FFF;
   font-family: 'Satisfy';
-  font-size: 48px;
+  font-size: 54px;
   line-height: 30px;
 }
 
 h4 {
   color: #FFF;
   font-family: 'Open Sans';
-  font-size: 30px;
+  font-size: 28px;
+  font-style: italic;
   font-weight: 100;
+}
+
+p {
+  font-family: 'Open Sans';
+  font-size: 20px;
 }
 
 .body-items {
@@ -61,16 +67,19 @@ h4 {
 }
 
 ul {
-  margin: 150px;
+  list-style-type: none;
+  margin: 0 auto;
   width: 70%;
 }
 
 li {
+  border: 2px solid #FFF;
   color: #FFF;
+  padding: 50px;
 }
 
 img.resize {
-  max-width:30%;
-  max-height:30%;
+  max-width:50%;
+  max-height:50%;
 }
 
