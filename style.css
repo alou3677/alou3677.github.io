@@ -4,14 +4,14 @@ body {
   background-position: left center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 1000px;
+  height: 62em;
   margin: 0;
   padding: 0;
   width: 100%;
 }
 
 .header {
-  height: 1000px;
+  height: 62em;
   width: 100%;
 }
 
@@ -24,7 +24,7 @@ body {
   padding: 1.8em 0;
   position: relative;
   text-align: center;
-  top: 4.3em;
+  top: 4em;
   width: 100%;
 }
 
@@ -71,8 +71,8 @@ h1 {
 }
 
 img.dot {
-  max-width: 1%;
-  max-height: 1%;
+  max-width: 1.2em;
+  max-height: 1.2em;
 }
 
 #portfolio-text {
@@ -98,6 +98,7 @@ h2 {
   background-repeat: repeat-y, repeat-y;
   background-size: 20%;
   padding: 2em 17em;
+  width: 58%;
 }
 
 h3 {
@@ -105,7 +106,9 @@ h3 {
   font-family: 'Montserrat';
   font-size: 3em;
   letter-spacing: 0.05em;
-  line-height: 0.05em;
+  line-height: 1.4em;
+  margin: 0.5em 0em;
+  padding: 0;
 }
 
 h4 {
@@ -114,25 +117,32 @@ h4 {
   font-size: 1.5em;
   font-style: italic;
   font-weight: 100;
-  line-height: 1em;
+  line-height: 1.2em;
 }
 
 .about p {
   color: #0B3F64;
   font-family: 'Montserrat';
   font-size: 1.2em;
-  line-height: 2.2em;
+  line-height: 1.8em;
   margin: 0.5em auto;
-  width: 55%;
+  text-align: justify;
+  width: 60%;
 }
 
 .about {
   border-bottom: 2px solid #B7C8D2;
+  padding-top: 2em;
+}
+
+.about-1, .about-2, .about-3 {
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 .about-1 p {
-  padding-right: 1em;
-  vertical-align: top;
+  padding-right: 2em;
+  vertical-align: text-bottom;
 }
 
 .about-1 p, img {
@@ -140,13 +150,13 @@ h4 {
 }
 
 #biz-profile {
-  max-width:40%;
-  max-height:40%;
+  max-width:22.5em;
+  max-height:22.5em;
 }
 
 .about-2 p {
-  padding-left: 1em;
-  vertical-align: top;
+  padding-left: 2em;
+  vertical-align: text-bottom;
 }
 
 .about-2 p, img {
@@ -154,13 +164,13 @@ h4 {
 }
 
 #full-body-1 {
-  max-width:40%;
-  max-height:40%;
+  max-width:22.1em;
+  max-height:22.1em;
 }
 
 .about-3 p {
-  padding-right: 1em;
-  vertical-align: top;
+  padding-right: 2em;
+  vertical-align: text-bottom;
 }
 
 .about-3 p, img {
@@ -168,15 +178,15 @@ h4 {
 }
 
 #full-body-2 {
-  max-width:40%;
-  max-height:40%;
+  max-width:22.1em;
+  max-height:22.1em;
 }
 
 h5 {
   color: #0B3F64;
   font-family: 'Montserrat';
-  font-size: 3.2em;
-  line-height: 1.5em;
+  font-size: 2.8em;
+  line-height: 1.2em;
   text-align: center;
   margin: 0;
 }
@@ -184,24 +194,31 @@ h5 {
 h6 {
   color: #305D7E;
   font-family: 'Montserrat';
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: 100;
-  line-height: 1.2em;
+  line-height: 1.7em;
   text-align: center;
   margin: 0;
+  padding-top: 0.3em;
+}
+
+.work-1, .work-2, .work-3 {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
 }
 
 .work-projects p {
   color: #0B3F64;
   font-family: 'Montserrat';
   font-size: 1.2em;
-  line-height: 2.2em;
+  line-height: 1.8em;
   margin: 0.5em auto;
+  text-align: justify;
 }
 
 #SAP_logo {
-  max-width: 18%;
-  max-height: 18%;
+  max-width: 14%;
+  max-height: 14%;
   padding-left: 1em;
   vertical-align: top;
 }
@@ -216,10 +233,10 @@ h6 {
 }
 
 #Shift_logo {
-  max-width: 20%;
-  max-height: 20%;
+  max-width: 17%;
+  max-height: 17%;
   padding-left: 1em;
-  vertical-align: top;
+  vertical-align: baseline;
 }
 
 .work-2-title {
