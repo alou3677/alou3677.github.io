@@ -1,29 +1,15 @@
-body {
-  margin: 0;
-}
-
-.header {
-  background-color: #D7E8F2;
-}
-
-.title-block {
-  background-image: url("images/Kauai_Turtle_Cove_Geo_Wide.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: auto 67em;
-  height: 62em;
-}
-
-.header-banner {
-  background-color: rgba(255, 255, 255, 0.8);
-  height: 12em;
+* {
+  /*
   color: #0B3F64;
-  /*color: #305D7E;
-  color: #B7C8D2;*/
-  padding: 1.8em 0;
-  position: relative;
-  text-align: center;
-  top: 5em;
+  color: #305D7E;
+  color: #B7C8D2;
+  */
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #0B3F64;
 }
 
 #name h1 {
@@ -32,6 +18,7 @@ body {
   letter-spacing: normal;
   line-height: 1.5em;
   margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -43,10 +30,36 @@ h1 {
   margin: 0;
 }
 
+.header {
+  background-color: #D7E8F2;
+}
+
+.title-block img {
+  /*background-image: url("images/Kauai_Turtle_Cove_Geo_Wide.png");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  height: 75%;*/
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.title-banner {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #0B3F64;
+  padding: 1.8em 0em 0em 0em;
+  position: absolute;
+  text-align: center;
+  top: 3em;
+  width: 100%;
+  z-index: 5;
+}
+
 .welcome-banner {
   color: #305D7E;
-  height: 15em;
-  padding-top: 5em;
+  padding-top: 4em;
+  padding-bottom: 4.5em;
   text-align: center;
 }
 
@@ -55,6 +68,15 @@ h1 {
   font-size: 1.8em;
   font-weight: 100;
   letter-spacing: 0.5em;
+  padding-bottom: 1em;
+}
+
+#portfolio-text {
+  font-family: 'Montserrat';
+  font-size: 3.4em;
+  font-weight: 100;
+  letter-spacing: 0.5em;
+  padding-top: 0.35em;
 }
 
 .portfolio-types {
@@ -76,13 +98,6 @@ img.dot {
   max-height: 1.2em;
 }
 
-#portfolio-text {
-  font-family: 'Montserrat';
-  font-size: 3.4em;
-  font-weight: 100;
-  letter-spacing: 0.5em;
-}
-
 .body-items {
   background-color: #FFF;
   background-image:url("images/vector_background_blue_left.png"), url("images/vector_background_blue_right.png");
@@ -97,6 +112,7 @@ h3 {
   color: #305D7E;
   font-family: 'Montserrat';
   font-size: 3em;
+  font-size: 3.8vw;
   letter-spacing: 0.05em;
   line-height: 1.4em;
   margin: 0.5em 0em;
@@ -107,6 +123,7 @@ h4 {
   color: #B7C8D2;
   font-family: 'Satisfy';
   font-size: 1.5em;
+  font-size: 1.7em;
   font-style: italic;
   font-weight: 100;
   line-height: 1.2em;
@@ -124,6 +141,7 @@ h4 {
 
 .about {
   border-bottom: 2px solid #B7C8D2;
+  margin: 0;
   padding-top: 2em;
 }
 
@@ -209,8 +227,8 @@ h6 {
 }
 
 #SAP_logo {
-  max-width: 14%;
-  max-height: 14%;
+  max-width: 6.8em;
+  max-height: 6.8em;
   padding-left: 1em;
   vertical-align: top;
 }
@@ -225,8 +243,8 @@ h6 {
 }
 
 #Shift_logo {
-  max-width: 17%;
-  max-height: 17%;
+  max-width: 8em;
+  max-height: 8em;
   padding-left: 1em;
   vertical-align: baseline;
 }
