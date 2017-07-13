@@ -8,9 +8,87 @@
   padding: 0;
 }
 
-body {
-  background-color: #0B3F64;
+/* FOLLOWING ITEMS ARE NAV STYLING */
+nav {
+  background: rgba(25, 25, 25, 0.95);
+  height: 3em;
+  z-index: 100;
 }
+
+nav ul {
+  display: inline-block;
+  list-style: none;
+}
+
+nav, nav ul {
+  width: 100%;
+  z-index: 100;
+}
+
+nav li {
+  display: inline-block;
+  padding: 0.5em 0;
+  width: auto;
+}
+
+nav li a {
+  display: block;
+  color: #FFF;
+  padding: 0 0.5em;
+  font-family: 'Montserrat';
+  font-size: 1.4em;
+  font-weight: 100;
+  width: 10%;
+}
+
+nav li a:hover {
+  color: #305D7E;
+}
+
+nav a b {
+  display: block;
+}
+
+.main-nav {
+  display: block;
+  position: absolute;
+  height: 3em;
+  width: 3em;
+}
+
+nav .logo {
+  background-color: transparent;
+  background-image: url("images/AL_Logo_White.png");
+  background-size: 1.5em;
+  background-repeat: no-repeat;
+  float: left;
+  opacity: 1;
+  height: 3em;
+  width: 3em;
+}
+
+nav .logo:hover {
+  background-image: url("images/AL_Logo_305D7E.png");
+}
+
+.menu-nav {
+  float: right;
+  overflow: hidden;
+}
+
+
+/* END NAV STYLING */
+
+body {
+  background-color: #FFF;
+}
+
+.header {
+  background-color: #FFF;
+}
+
+
+/* ALL ITEMS IN THE FOLLOWING SECTION STYLE THE HEADER */
 
 #name h1 {
   font-family: 'Satisfy';
@@ -20,7 +98,6 @@ body {
   margin: 0;
   padding: 0;
 }
-
 h1 {
   font-family: 'Montserrat';
   font-size: 1.4em;
@@ -29,22 +106,14 @@ h1 {
   letter-spacing: 0.8em;
   margin: 0;
 }
-
-.header {
+.main-header {
   background-color: #D7E8F2;
 }
-
 .title-block img {
-  /*background-image: url("images/Kauai_Turtle_Cove_Geo_Wide.png");
-  background-position: center bottom;
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  height: 75%;*/
   display: block;
   height: auto;
   width: 100%;
 }
-
 .title-banner {
   background-color: rgba(255, 255, 255, 0.8);
   color: #0B3F64;
@@ -55,14 +124,12 @@ h1 {
   width: 100%;
   z-index: 5;
 }
-
 .welcome-banner {
   color: #305D7E;
   padding-top: 4em;
   padding-bottom: 4.5em;
   text-align: center;
 }
-
 #welcome-text {
   font-family: 'Montserrat';
   font-size: 1.8em;
@@ -70,7 +137,6 @@ h1 {
   letter-spacing: 0.5em;
   padding-bottom: 1em;
 }
-
 #portfolio-text {
   font-family: 'Montserrat';
   font-size: 3.4em;
@@ -78,7 +144,6 @@ h1 {
   letter-spacing: 0.5em;
   padding-top: 0.35em;
 }
-
 .portfolio-types {
   font-family: 'Satisfy';
   font-size: 0.8em;
@@ -88,27 +153,42 @@ h1 {
   line-height: 3.5em;
   word-spacing: 2em;
 }
-
 .portfolio-types h2, img {
   display: inline-block;
 }
-
 img.dot {
   max-width: 1.2em;
   max-height: 1.2em;
 }
 
+
+
+/* ALL ITEMS BELOW STYLE BODY CONTENT */
+
 .body-items {
   background-color: #FFF;
-  background-image:url("images/vector_background_blue_left.png"), url("images/vector_background_blue_right.png");
+  background-image:url("images/vector_background_blue_left_faded_extra.png"), url("images/vector_background_blue_right_faded_extra.png");
   background-position: left, right;
   background-repeat: repeat-y, repeat-y;
-  background-size: 20%;
+  background-size: 15%;
   margin: 0;
-  padding: 2em 17em;
+  padding: 0;
 }
 
-h3 {
+
+.body-content {
+  width: 60%;
+  margin: auto;
+}
+
+
+.divider {
+  border-bottom: 2px solid #B7C8D2;
+  height: 4em;
+}
+
+
+.section-title h3 {
   color: #305D7E;
   font-family: 'Montserrat';
   font-size: 3em;
@@ -118,8 +198,7 @@ h3 {
   margin: 0.5em 0em;
   padding: 0;
 }
-
-h4 {
+.section-subtitle h4 {
   color: #B7C8D2;
   font-family: 'Satisfy';
   font-size: 1.5em;
@@ -127,70 +206,35 @@ h4 {
   font-style: italic;
   font-weight: 100;
   line-height: 1.2em;
+  padding-bottom: 1.6em;
 }
 
+
+.about {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
 .about p {
   color: #0B3F64;
   font-family: 'Montserrat';
   font-size: 1.2em;
+  font-weight: 200;
   line-height: 1.8em;
-  margin: 0.5em auto;
-  text-align: justify;
-  width: 60%;
+  padding-left: 4%;
+  text-align: left;
+  width: 55%;
 }
-
-.about {
-  border-bottom: 2px solid #B7C8D2;
-  margin: 0;
-  padding-top: 2em;
+.about-content img {
+  display: block;
+  height: auto;
+  width: 40%;
 }
-
-.about-1, .about-2, .about-3 {
-  padding-top: 1em;
-  padding-bottom: 1em;
-}
-
-.about-1 p {
-  padding-right: 2em;
-  vertical-align: text-bottom;
-}
-
-.about-1 p, img {
+.about-content img, p {
   display: inline-block;
+  vertical-align: middle;
 }
 
-#biz-profile {
-  max-width:22.5em;
-  max-height:22.5em;
-}
-
-.about-2 p {
-  padding-left: 2em;
-  vertical-align: text-bottom;
-}
-
-.about-2 p, img {
-  display: inline-block;
-}
-
-#full-body-1 {
-  max-width:22.1em;
-  max-height:22.1em;
-}
-
-.about-3 p {
-  padding-right: 2em;
-  vertical-align: text-bottom;
-}
-
-.about-3 p, img {
-  display: inline-block;
-}
-
-#full-body-2 {
-  max-width:21.8em;
-  max-height:21.8em;
-}
 
 h5 {
   color: #0B3F64;
@@ -200,72 +244,81 @@ h5 {
   text-align: center;
   margin: 0;
 }
-
 h6 {
   color: #305D7E;
   font-family: 'Montserrat';
   font-size: 1em;
-  font-weight: 100;
+  font-weight: 400;
   line-height: 1.7em;
   text-align: center;
   margin: 0;
   padding-top: 0.3em;
 }
 
+
+.work-projects {
+  width: 100%;
+}
 .work-1, .work-2, .work-3 {
   padding-top: 1.5em;
   padding-bottom: 1.5em;
 }
-
 .work-projects p {
   color: #0B3F64;
   font-family: 'Montserrat';
   font-size: 1.2em;
+  font-weight: 200;
   line-height: 1.8em;
   margin: 0.5em auto;
   text-align: justify;
 }
-
 #SAP_logo {
   max-width: 6.8em;
   max-height: 6.8em;
   padding-left: 1em;
   vertical-align: top;
 }
-
 .work-1-title {
   text-align: center;
 }
-
 .work-1-title h5, img {
   display: inline-block;
   margin: 0;
 }
-
 #Shift_logo {
   max-width: 8em;
   max-height: 8em;
   padding-left: 1em;
   vertical-align: baseline;
 }
-
 .work-2-title {
   text-align: center;
 }
-
 .work-2-title h5, img {
   display: inline-block;
   margin: 0;
 }
 
-.work-projects {
-  border-bottom: 2px solid #B7C8D2;
-}
-
-.interests {
-  border-bottom: 2px solid #B7C8D2;
-}
 
 .resume {
-  border-bottom: 2px solid #B7C8D2;
+
+}
+
+
+.interests {
+  /*border-bottom: 2px solid #B7C8D2;*/
+}
+.interests p {
+  color: #0B3F64;
+  font-family: 'Montserrat';
+  font-size: 1.2em;
+  font-weight: 200;
+  line-height: 1.8em;
+  margin: 0.5em auto;
+  text-align: justify;
+}
+
+
+.resume {
+  /*border-bottom: 2px solid #B7C8D2;*/
 }

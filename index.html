@@ -7,10 +7,38 @@
   <meta name="Generator" content="Cocoa HTML Writer">
   <meta name="CocoaVersion" content="1404.47">
   <link href="style.css" type="text/css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat|Lobster|Architects+Daughter|Satisfy:300,400,600,700|Open+Sans:300,400,600,700" type="text/css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,400|Architects+Daughter|Satisfy:300,400,600,700|Open+Sans:300,400,600,700" type="text/css" rel="stylesheet">
 </head>
+
+
 <body>
-  <div class="header">
+
+  <nav>
+    <ul>
+      <!--
+      <div class="main-nav">
+        <li><a href="../index.html"><b class="logo"></b></a></li>
+      </div>
+      <div class="menu-nav">
+        <li><a href="../bio/index.html"><span>Bio</span></a></li>
+        <li><a href="../work/index.html"><span>Work</span></a></li>
+        <li><a href="../interests/index.html"><span>Interests</span></a></li>
+        <li><a href="../gallery/index.html"><span>Gallery</span></a></li>
+      </div>-->
+      <div class="main-nav">
+        <li><a href="../"><b class="logo"></b></a></li>
+      </div>
+      <div class="menu-nav">
+        <li><a href="../bio"><span>Bio</span></a></li>
+        <li><a href="../work"><span>Work</span></a></li>
+        <li><a href="../interests"><span>Interests</span></a></li>
+        <li><a href="../gallery"><span>Gallery</span></a></li>
+      </div>
+    </ul>
+  </nav>
+
+  <div class="main-header">
+
     <div class="title-block">
       <img src="images/Kauai_Turtle_Cove_Geo_Wide.png"/>
       <div class="title-banner">
@@ -18,9 +46,9 @@
         <div id="name">
           <h1>Andrew Lou</h1>
         </div>
-        <!--<h2>Welcome to my personal website, where you'll find an updated biography, what I'm up to, what I'm interested in, an academic resume, and photography portfolio.<br />Enjoy!</h2>-->
       </div>
     </div>
+
     <div class="welcome-banner">
       <div id="welcome-text">WELCOME TO MY</div>
       <div class="portfolio-types">
@@ -32,115 +60,148 @@
       </div>
       <div id="portfolio-text">PORTFOLIO</div>
     </div>
-  </div>
-  <div class="body-items">
-    <div class="about">
-      <h3>ABOUT ME</h3>
-      <h4>a quick introduction to who I am</h4>
-      <div class="about-1">
-        <p>First of all, thank you for checking out my page! It's been a side project of mine to maintain this personal portfolio since I've finished my sophomore year at Cal and I hope it gives you a better picture of who I am. I am currently a junior at UC Berkeley studying both Economics and Computer Science and exploring topics of project management, artificial intelligence companions, and entrepreneurship.</p>
-        <img id="biz-profile" src="images/suit_profile.jpg" alt="suit profile"/>
-      </div>
-      <br />
-      <div class="about-2">
-        <img id="full-body-1" src="images/full_body_profile_1.JPG" alt="full body profile in Monterey"/>
-        <p>During the summer and fall of 2017, I will be working as a Software QA Engineer and Project Management intern for SAP Labs in Palo Alto. In the past, I've also worked as a front-end salesman for the young, used-car startup Shift Technologies. If you want to learn more about the professional work I've done, scroll down to my work and projects outline below! </p>
-      </div>
-      <br />
-      <div class="about-3">
-        <p>When I'm not in the office or classroom, it's likely that you'll find me in the gym or in the water. Weather and work permitting, there's also a good chance I'll be tackling the slopes in Tahoe with a pair of skiis. And as my photo gallery below will show, I also have a passion for automobiles, shoes, photography, and travelling.</p>
-        <img id="full-body-2" src="images/full_body_profile_2.jpg" alt="full body profile in Tahoe"/>
-      </div>
-      <br />
-      <br />
-      <br />
-      <br />
-    </div>
-    <br />
-    <br />
-    <br />
-    <div class="work-projects">
-      <h3>WORK & PROJECTS</h3>
-      <h4>a run-through of my work experience and personal projects</h4>
-      <div class="work-1">
-        <div class="work-1-header">
-          <div class="work-1-title">
-            <h5>SAP Labs</h5>
-            <img id="SAP_logo" src="images/SAP_logo.png"/>
-          </div>
-          <h6>Software QA Engineer: 5.16 - Present | Project Manager Intern: 6.17 - Present</h6>
-        </div>
-        <br />
-        <p>Starting in May of 2016 after finishing my freshman year at Cal, I was interning as a software engineer for SAP Labs in Palo Alto, California. The overall description of the job was to help develop and update the testing framework that the QA team already had in place for SAP's Business Objects Information Steward web application.</p>
-        <br />
-        <p>When I joined, 99% of the team's testing framework was based on Java code that was called upon via shell scripts to send requests to an Information Steward server, allowing us to execute a large number of testcases with ease.</p>
-        <br />
-        <p>My tasks consisted of updating "goldlog" files with which we compared test run outputs against to verify expected behavior throughout patches and new releases and creating the shell scripts that would run a suite of testcases.</p>
-        <br />
-        <p>However, the most powerful tool I've learned to use at SAP is Apache JMeter. While built for load lesting web applications, JMeter is also extremely useful for the automation of web requests. Using JMeter, I have been able to expand our team's testing framework at a much faster rate with JMeter's built-in templates and increase our testing performance for JMeter-based testcases by up to 50% with less web requests and high-performance JSON output parsing.</p>
-      </div>
-      <br />
-      <div class="work-2">
-        <div class="work-2-header">
-          <div class="work-2-title">
-            <h5>Shift Technologies</h5>
-            <img id="Shift_logo" src="images/Shift_logo.png"/>
-          </div>
-          <h6>Car Enthusiast: 2.16 - 6.16</h6>
-        </div>
-        <br />
-        <p>Driving, ahem, working at Shift was arguable one of the most exciting and fast-paced experiences I've ever had the pleasure of being a part of. While quite phsyically demanding spending the entire day driving around the bay and delivering test drives to potential buyers, it was quite rewarding to be surrounded by people with a common passion and the feeling whenever I, the youngest member of the team at age 18, was able to land a sale.</p>
-        <br />
-        <p>Being a small startup with every member of the team always having something on their hands, I had to learn fast on my own and pick up soft skills along with my own workflow rhythm as I dived into full-time duties without even completing their planned, formal training.</p>
-        <br />
-        <p>Aside from learning how it feels to drive a slick, manual Porsche 911 and monsterous Range Rover Sport during my part-time stint based out of South San Francisco, I also learned how to tackle front-end sales for the first time. By the end of my time at Shift, I had finished with about a 30% closing rate.</p>
-      </div>
-      <br />
-      <div class="work-3">
-        <div class="work-3-header">
-          <h5>UC Santa Barbara Research Mentorship Program</h5>
-          <h6>Student Researcher | 6.14 - 8.14</h6>
-        </div>
-        <p></p>
-      </div>
-      <br />
-      <br />
-      <br />
-    </div>
-    <br />
-    <br />
-    <br />
-    <div class="interests">
-      <h3>INTERESTS</h3>
-      <h4>what's my hype?</h4>
-      <br />
-      <br />
-      <br />
-    </div>
-    <br />
-    <br />
-    <br />
-    <div class="resume">
-      <h3>ACADEMIC RESUME</h3>
-      <h4>a list of classes I've taken at UC Berkeley and some significant projects that I've completed</h4>
-      <br />
-      <br />
-      <br />
-    </div>
-    <br />
-    <br />
-    <br />
-    <div class="gallery">
-      <h3>BEST OF MY CAMERA ROLL</h3>
-      <h4>the following pictures have all been shot on my Nikon D5500 with either a 24mm or 35mm prime lens</h4>
-      <br />
-      <br />
-      <br />
-    </div>
-    <br />
-    <br />
-    <br />
+
   </div>
 
+
+  <div class="body-items">
+    <div class="body-content">
+
+
+      <div class="divider"></div>
+      <div class="about">
+        <div class="section-title"><h3>ABOUT ME</h3></div>
+        <div class="section-subtitle"><h4>a quick introduction to who I am</h4></div>
+        <div class="about-content">
+          <img id="full-body-2" src="images/full_body_profile_2.jpg" alt="full body profile in Tahoe"/>
+          <p>First of all, thank you for checking out my page! It's been a side project of mine to maintain this personal portfolio since I've finished my sophomore year at Cal and I hope it gives you a better picture of who I am!<br /><br />I am currently a junior at UC Berkeley studying both Economics and Computer Science exploring topics of project management, AI companions, and entrepreneurship. Scroll down to check out my work experience, projects, and hobbies!</p>
+        </div>
+      </div>
+
+
+      <div class="divider"></div>
+      <div class="work-projects">
+        <div class="section-title"><h3>WORK & PROJECTS</h3></div>
+        <div class="section-subtitle"><h4>a run-through of my work experience and personal projects</h4></div>
+
+        <div class="work-1">
+          <div class="work-1-header">
+            <div class="work-1-title">
+              <h5>SAP Labs</h5>
+              <img id="SAP_logo" src="images/SAP_logo.png"/>
+            </div>
+            <h6>Software Engineer: 5.16 - Present | Project Manager Intern: 6.17 - Present</h6>
+          </div>
+          <p>Starting in May 2016, I have worked as a software engineer intern for SAP Labs in Palo Alto helping to develop and update the QA team's Java-based, automated testing framework. To aid in the testing of SAP's BI Information Steward web application, I have also expanded the team's framework using Apache JMeter, which allows me to build framework at a much faster rate and speed up individual testcases by up to 50%. </p>
+        </div>
+
+        <div class="work-2">
+          <div class="work-2-header">
+            <div class="work-2-title">
+              <h5>Shift Technologies</h5>
+              <img id="Shift_logo" src="images/Shift_logo.png"/>
+            </div>
+            <h6>Car Enthusiast: 2.16 - 6.16</h6>
+          </div>
+          <p>Driving, ahem, working at Shift was arguable one of the most exciting and fast-paced experiences I've ever had the pleasure of being a part of. While quite phsyically demanding spending the entire day driving around the bay and delivering test drives to potential buyers, it was quite rewarding to be surrounded by people with a common passion for cars and to experience front end sales for the first time in my life without any formal training.</p>
+        </div>
+
+        <div class="work-3">
+          <div class="work-3-header">
+            <h5>UC Santa Barbara Research Mentorship Program</h5>
+            <h6>Student Researcher | 6.14 - 8.14</h6>
+          </div>
+          <p>For this project, I worked with Anthropology PhD Sangin Kim at UCSB and used object-oriented programming and agent-based simulation with R to model group selection by dispersion and cultural processes. In this model, there were positive and negative influencers that would interact with each other via a point based system throughout their lifetime and have offspring who would continue this process for multiple generations. The applications of this study reflect ideal group sizes given certain starting parameters for work, study, and more!</p>
+        </div>
+
+      </div>
+
+
+      <div class="divider"></div>
+
+      <div class="resume">
+        <div class="section-title"><h3>ACADEMIC RESUME</h3></div>
+        <div class="section-subtitle"><h4>a list of classes I've taken at UC Berkeley and some significant projects that I've completed</h4></div>
+        <div class="class-list">
+          <h5>Computer Science Courses</h5>
+          <ul>
+            <li>
+              <h6>CS 61A: Introduction to Computer Programming [Python]</h6>
+            </li>
+            <li>
+              <h6>CS 61B: Data Structures [Java]</h6>
+            </li>
+            <li>
+              <h6>CS 70: Discrete Mathematics and Probability Theory [LateX]</h6>
+            </li>
+            <li>
+              <h6>CS 61C: Machine Structures and Computer Architecture [C, MIPS]</h6>
+            </li>
+            <li>
+              <h6>CS 188: Artificial Intelligence [Upcoming Course]</h6>
+            </li>
+            <li>
+              <h6>CS 189: Machine Learning [Upcoming Course, Python]</h6>
+            </li>
+          </ul>
+          <h5>Economics and Business Courses</h5>
+          <ul>
+            <li>
+              <h6>ECON 100B: Macro-Economic Analysis</h6>
+            </li>
+            <li>
+              <h6>UGBA 10: Business Principles</h6>
+            </li>
+            <li>
+              <h6>ECON 100A: Micro-Economic Analysis [Upcoming Course]</h6>
+            </li>
+            <li>
+              <h6>ECON 136: Public Economics [Upcoming Course]</h6>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+
+      <div class="divider"></div>
+
+      <div class="interests">
+        <div class="section-title"><h3>INTERESTS</h3></div>
+        <div class="section-subtitle"><h4>what's my hype?</h4></div>
+        <div class="interest-1">
+          <h5>Fashion Footwear: BOOST</h5>
+          <p>In the summer of 2016, my friend introduced me to the world of hype-fashion sneakers during the big Adidas NMD drop in June. After I had copped my first pair of NMD_R1 Reflectives, my afinity for 'athleisure' sportswear has exploded and left me with my own personal collection of NMDs, UltraBoosts, and Yeezys alongside a great portfolio of sneaker photography as well!</p>
+          <!--<img src="images/.jpg">-->
+        </div>
+        <div class="interest-2">
+          <h5>Automotive Culture: VOLVO</h5>
+          <p>Mom's 2002 Volvo S40, my high school 2012 Volvo S60 T5, and now a 2015 Volvo S60 T5 AWD. I think it's safe to say that Volvo has been in my life for a very, very long time. While I'm passionate about all sorts of cars from dirty-road rally legends like the Delta S4 to the track-ready McLaren 675LTs and P1 GTRs, Volvos have always had a special place in my heart.</p>
+          <!--<img src="images/.jpg">-->
+        </div>
+        <div class="interest-3">
+          <h5>Competitive Swimming</h5>
+          <p>I've been swimming for over 80% of my life, and of that about half has been dedicated to swimming competitively on my year-round club team, the California Dolphin Swim Team based out of Fremont, CA. In high school, I may have taken swimmiing more seriously than my actual studies, but I learned a great deal from the pool and did end up with Sectionals cuts (bonus pts for you if you know what this means) for my best sprint freestyle events. </p>
+        </div>
+        <div class="interest-4">
+          <h5>Downhill Skiing</h5>
+          <p>Snow, speed, and scenery. I'm not sure what else you could be asking for in the winter season, but that's is all I need to enjoy the mountains. </p>
+        </div>
+        <div class="interest-5">
+          <h5>Photography</h5>
+          <p>Nikon D5500 using a 35mm and 24mm prime lens. Just check out the gallery below.</p>
+        </div>
+      </div>
+
+
+      <div class="divider"></div>
+
+      <div class="gallery">
+        <div class="section-title"><h3>BEST OF MY CAMERA ROLL</h3></div>
+        <div class="section-subtitle"><h4>the following pictures have all been shot on my Nikon D5500 with either a 24mm or 35mm prime lens</h4></div>
+      </div>
+
+
+    </div>
+  </div>
 </body>
 </html>
