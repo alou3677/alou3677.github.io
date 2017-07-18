@@ -356,16 +356,33 @@ h6 {
 
 /* BEGIN FOOTER STYLING */
 
+.footer-contact {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  width: 49em;
+}
+
+.footer-contact h2 {
+  color: #0B3F64;
+  display: inline-block;
+  font-family: 'Montserrat';
+  font-size: 1.3em;
+  font-weight: 100;
+  letter-spacing: 0.1em;
+  margin: 0.5em 1em;
+}
+
 .footer-nav {
   display: block;
-  margin: 2em auto;
+  margin: 1.5em auto;
   position: relative;
-  width: 45em;
+  width: 44.3em;
 }
 
 .footer-nav li {
   display: inline-block;
-  margin: 1em 0.8em;
+  margin: 0 0.8em;
   width: auto;
 }
 
@@ -391,10 +408,11 @@ h6 {
   color: #B7C8D2;
 }
 
-#copyright {
+#copyright h1 {
   background: rgba(25, 25, 25, 0.95);
   color: #FFF;
-  font-size: 0.6em;
+  font-size: 0.8em;
+  letter-spacing: 0.5em;
   padding: 3em 0em;
   text-align: center;
   width: 100%;
