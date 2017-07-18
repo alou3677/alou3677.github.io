@@ -16,15 +16,13 @@ nav {
   height: 4em;
   position: fixed;
   top: 0;
+  width: 100;
   z-index: 100;
 }
 
 nav ul {
   display: inline-block;
   list-style: none;
-}
-
-nav, nav ul {
   width: 100%;
   z-index: 100;
 }
