@@ -98,6 +98,10 @@ body {
   background-color: #FFF;
 }
 
+p {
+  white-space: pre-wrap;
+}
+
 
 /* ALL ITEMS IN THE FOLLOWING SECTION STYLE THE HEADER */
 
@@ -186,10 +190,14 @@ img.dot {
   padding: 0;
 }
 
-
 .body-content {
   width: 60%;
-  margin: auto;
+  margin: 0 auto;
+}
+
+.body-content-main {
+  width: 70%;
+  margin: 0 auto;
 }
 
 
@@ -209,16 +217,25 @@ img.dot {
   margin: 0.5em 0em;
   padding: 0;
 }
+.section-title-main {
+  display: inline-block;
+  margin: 0 4%;
+  width: 1em;
+  word-wrap: break-word;
+  white-space: pre-wrap; /* this is for displaying whitespaces */
+  vertical-align: middle;
+}
 .section-title-main h3 {
   color: #305D7E;
+  display: inline-block;
   font-family: 'Montserrat';
-  font-size: 3em;
-  font-size: 3vw;
+  font-size: 2.5em;
   letter-spacing: 0.05em;
-  line-height: 1.4em;
-  margin: 0.5em 0em;
+  line-height: 1.1em;
+  margin: 50% 0;
   padding: 0;
   text-align: center;
+  width: 1em;
 }
 .section-subtitle h4 {
   color: #B7C8D2;
@@ -230,11 +247,41 @@ img.dot {
   line-height: 1.2em;
   padding-bottom: 1.6em;
 }
-
+.top-border {
+  border-bottom: 3px solid #AAA;
+  border-color: linear-gradient(to right, #305D7E , #B7C8D2);
+  float: left;
+  margin: 2em 0;
+  width: 75%;
+}
+.bottom-border {
+  border-bottom: 3px solid #AAA;
+  float: right;
+  margin: 2em 0;
+  width: 75%;
+}
+.redir-button {
+  margin: 10% auto 0 auto;
+  width: 22em;
+}
+.redir-button a {
+  /*background: linear-gradient(to right, #305D7E , #B7C8D2);*/
+  background: #0B3F64;
+  border-radius: 0.5em;
+  display: block;
+  text-decoration: none;
+  margin: 0.5em auto;
+}
+.redir-button h1 {
+  color: #FFF;
+  /*letter-spacing: 0.2em;*/
+  letter-spacing: normal;
+  padding: 0.4em 0.9em;
+  text-align: center;
+}
 
 .about {
-  margin: 5em 0;
-  padding: 0;
+  padding: 5em 0;
   width: 100%;
 }
 .about p {
@@ -255,6 +302,31 @@ img.dot {
 .about-content img, p {
   display: inline-block;
   vertical-align: middle;
+}
+
+.content-main {
+  vertical-align: middle;
+}
+.desc-main {
+  display: inline-block;
+  vertical-align: middle;
+}
+.content-main img {
+  display: inline-block;
+  max-height: 35%;
+  max-width: 35%;
+  padding: 1% 2%;
+  vertical-align: middle;
+}
+.desc-main p {
+  margin: auto auto;
+  padding: 0 5%;
+  text-align: left;
+  width: 100%;
+}
+.desc-main {
+  max-width: 50%;
+  padding: 0%;
 }
 
 
@@ -294,7 +366,7 @@ h6 {
   font-weight: 200;
   line-height: 1.8em;
   margin: 0.5em auto;
-  text-align: justify;
+  /*text-align: justify;*/
 }
 #SAP_logo {
   max-width: 6.8em;
@@ -323,6 +395,7 @@ h6 {
   margin: 0;
 }
 
+.wo
 
 .resume {
   margin: 5em 0;
@@ -352,26 +425,17 @@ h6 {
   padding: 0;
   width: 100%;
 }
-
+.gallery p {
+  color: #0B3F64;
+  font-family: 'Montserrat';
+  font-size: 1.2em;
+  font-weight: 200;
+  line-height: 1.8em;
+  margin: 0.5em auto;
+  text-align: justify;
+}
 
 /* BEGIN FOOTER STYLING */
-
-.footer-contact {
-  display: block;
-  margin: 0 auto;
-  position: relative;
-  width: 49em;
-}
-
-.footer-contact h2 {
-  color: #0B3F64;
-  display: inline-block;
-  font-family: 'Montserrat';
-  font-size: 1.3em;
-  font-weight: 100;
-  letter-spacing: 0.1em;
-  margin: 0.5em 1em;
-}
 
 .footer-nav {
   display: block;
@@ -406,6 +470,23 @@ h6 {
 
 .footer-nav li a:hover {
   color: #B7C8D2;
+}
+
+.footer-contact {
+  display: block;
+  margin: 1.2em auto;
+  position: relative;
+  width: 39.4em;
+}
+
+.footer-contact h2 {
+  color: #0B3F64;
+  display: inline-block;
+  font-family: 'Montserrat';
+  font-size: 1em;
+  font-weight: 100;
+  letter-spacing: 0.1em;
+  margin: 0.5em 1em;
 }
 
 #copyright h1 {
