@@ -261,14 +261,17 @@ img.dot {
   width: 75%;
 }
 .redir-button {
-  margin: 10% auto 0 auto;
-  width: 22em;
-}
-.redir-button a {
-  /*background: linear-gradient(to right, #305D7E , #B7C8D2);*/
   background: #0B3F64;
   border-radius: 0.5em;
   display: block;
+  margin: 10% auto 0 auto;
+  width: 22em;
+}
+.redir-button:hover {
+  background: #305D7E;
+}
+.redir-button a {
+  /*background: linear-gradient(to right, #305D7E , #B7C8D2);*/
   text-decoration: none;
   margin: 0.5em auto;
 }
@@ -279,6 +282,7 @@ img.dot {
   padding: 0.4em 0.9em;
   text-align: center;
 }
+
 
 .about {
   padding: 5em 0;
