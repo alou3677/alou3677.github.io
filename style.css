@@ -99,6 +99,13 @@ body {
 }
 
 p {
+  color: #0B3F64;
+  font-family: 'Montserrat';
+  font-size: 1.2em;
+  font-weight: 200;
+  line-height: 1.8em;
+  margin: 0.5em auto;
+  text-align: justify;
   white-space: pre-wrap;
 }
 
@@ -351,7 +358,7 @@ h6 {
 
 .work-projects {
   /*margin: 5em 0;*/
-  padding: 0;
+  padding: 5em 0;
   width: 100%;
 }
 .work-1, .work-2, .work-3 {
@@ -405,7 +412,7 @@ h6 {
 
 .interests {
   /*margin: 5em 0;*/
-  padding: 0;
+  padding: 5em 0;
   width: 100%;
 }
 .interests p {
@@ -421,7 +428,7 @@ h6 {
 
 .gallery {
   /*margin: 5em 0;*/
-  padding: 0;
+  padding: 5em 0;
   width: 100%;
 }
 .gallery p {
@@ -435,9 +442,19 @@ h6 {
 }
 
 
-.about, .work-projects, .interests, .gallery {
+.about-main, .work-projects-main, .interests-main, .gallery-main {
   margin: 0;
   padding: 20em 0;
+}
+
+.about-main p, .work-projects-main p, .interests-main p, .gallery-main p {
+  color: #0B3F64;
+  font-family: 'Montserrat';
+  font-size: 1.2em;
+  font-weight: 200;
+  line-height: 1.8em;
+  margin: 0.5em auto;
+  text-align: justify;
 }
 
 /* BEGIN FOOTER STYLING */
