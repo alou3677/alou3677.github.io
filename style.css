@@ -201,12 +201,6 @@ img.dot {
 }
 
 
-.divider {
-  border-bottom: 2px solid #B7C8D2;
-  height: 4em;
-}
-
-
 .section-title h3 {
   color: #305D7E;
   font-family: 'Montserrat';
@@ -285,6 +279,7 @@ img.dot {
 
 
 .about {
+  /*margin: 5em 0;*/
   padding: 5em 0;
   width: 100%;
 }
@@ -355,7 +350,7 @@ h6 {
 
 
 .work-projects {
-  margin: 5em 0;
+  /*margin: 5em 0;*/
   padding: 0;
   width: 100%;
 }
@@ -409,7 +404,7 @@ h6 {
 
 
 .interests {
-  margin: 5em 0;
+  /*margin: 5em 0;*/
   padding: 0;
   width: 100%;
 }
@@ -425,7 +420,7 @@ h6 {
 
 
 .gallery {
-  margin: 5em 0;
+  /*margin: 5em 0;*/
   padding: 0;
   width: 100%;
 }
@@ -439,11 +434,22 @@ h6 {
   text-align: justify;
 }
 
+
+.about, .work-projects, .interests, .gallery {
+  margin: 0;
+  padding: 20em 0;
+}
+
 /* BEGIN FOOTER STYLING */
+
+.footer {
+  background: linear-gradient(to bottom, #FFF , #C7D8E2);
+}
 
 .footer-nav {
   display: block;
-  margin: 1.5em auto;
+  margin: 0 auto;
+  padding: 1.5em 0;
   position: relative;
   width: 44.3em;
 }
