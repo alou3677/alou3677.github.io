@@ -246,7 +246,7 @@ img.dot {
   font-size: 1.7em;
   font-style: italic;
   font-weight: 100;
-  line-height: 1.2em;
+  line-height: 1.3em;
   padding-bottom: 1.6em;
 }
 .top-border {
@@ -444,6 +444,20 @@ h6 {
   line-height: 1.8em;
   margin: 0.5em auto;
   text-align: justify;
+}
+.gallery img {
+  /*display: inline-block;
+  max-width: 31%;
+  padding: 0.8%;*/
+  display: block;
+  max-width: 100%;
+  padding: 1em 0;
+}
+.gallery-item {
+  margin: 4em 0;
+}
+.exhibit {
+  margin: 1em 0;
 }
 
 
