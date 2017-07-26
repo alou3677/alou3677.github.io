@@ -198,7 +198,7 @@ img.dot {
 }
 
 .body-content {
-  width: 60%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -309,6 +309,13 @@ img.dot {
 .about-content img, p {
   display: inline-block;
   vertical-align: middle;
+}
+.about-content a {
+  text-decoration: none;
+}
+.about-content a:hover {
+  color: #0B3F64;
+  font-style: italic;
 }
 
 .content-main {
