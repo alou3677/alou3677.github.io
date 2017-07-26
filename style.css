@@ -447,7 +447,6 @@ h6 {
 }
 .gallery img {
   /*display: inline-block;
-  max-width: 31%;
   padding: 0.8%;*/
   display: block;
   max-width: 100%;
