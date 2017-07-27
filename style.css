@@ -431,10 +431,14 @@ h6 {
   text-align: justify;
 }
 .interests img {
-  max-width: 100%;
+  margin: 2%;
+  max-width: 96%;
 }
 .interest-item {
   margin: 4em 0;
+}
+.interest-item-first {
+  margin: 0 0 4em 0;
 }
 
 
@@ -462,6 +466,9 @@ h6 {
 .gallery-item {
   margin: 4em 0;
 }
+.gallery-item-first {
+  margin: 0 0 4em 0;
+}
 .exhibit {
   margin: 1em 0;
 }
@@ -469,7 +476,7 @@ h6 {
 
 .about-main, .work-projects-main, .interests-main, .gallery-main {
   margin: 0;
-  padding: 20em 0;
+  padding: 5em 0;
 }
 
 .about-main p, .work-projects-main p, .interests-main p, .gallery-main p {
