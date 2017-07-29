@@ -451,7 +451,7 @@ img, .overlay {
 .overlay {
   color: #EEE;
   opacity: 0;
-  padding-right: 5%;
+  padding-right: 9%;
   position: absolute;
   text-align: center;
   top: 30%;
@@ -462,9 +462,14 @@ img, .overlay {
   font-weight: 200;
   letter-spacing: 0.25em;
 }
+.overlay p {
+  color: #FFF;
+  font-size: 1em;
+  letter-spacing: 0.3em;
+}
 .col-md-4:hover img {
   /*filter: blur(5px);*/
-  filter: brightness(60%);
+  filter: brightness(40%);
 }
 .col-md-4:hover .overlay {
   opacity: 1;
