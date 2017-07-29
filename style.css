@@ -441,6 +441,35 @@ h6 {
   margin: 0 0 4em 0;
 }
 
+.row {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+img, .overlay {
+  transition: .5s all;
+}
+.overlay {
+  color: #EEE;
+  opacity: 0;
+  padding-right: 5%;
+  position: absolute;
+  text-align: center;
+  top: 30%;
+  width: 100%;
+}
+.overlay h1 {
+  font-size: 1.5em;
+  font-weight: 200;
+  letter-spacing: 0.25em;
+}
+.col-md-4:hover img {
+  /*filter: blur(5px);*/
+  filter: brightness(60%);
+}
+.col-md-4:hover .overlay {
+  opacity: 1;
+}
+
 
 .gallery {
   /*margin: 5em 0;*/
@@ -499,7 +528,7 @@ h6 {
   margin: 0 auto;
   padding: 1.5em 0;
   position: relative;
-  width: 44.3em;
+  width: 45em;
 }
 
 .footer-nav li {
@@ -534,7 +563,7 @@ h6 {
   display: block;
   margin: 1.2em auto;
   position: relative;
-  width: 39.4em;
+  width: 40em;
 }
 
 .footer-contact h2 {
