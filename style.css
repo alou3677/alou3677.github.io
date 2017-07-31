@@ -552,10 +552,10 @@ img, .overlay {
 
 .footer-nav li a {
   display: block;
-  color: #0B3F64;
+  color: #1B4F74;
   font-family: 'Montserrat';
   font-size: 1.2em;
-  font-weight: 100;
+  font-weight: 200;
   letter-spacing: 0.1em;
   text-decoration: none;
 }
@@ -572,11 +572,11 @@ img, .overlay {
 }
 
 .footer-contact h2 {
-  color: #0B3F64;
+  color: #1B4F74;
   display: inline-block;
   font-family: 'Montserrat';
   font-size: 1em;
-  font-weight: 100;
+  font-weight: 200;
   letter-spacing: 0.1em;
   margin: 0.5em 1em;
 }
