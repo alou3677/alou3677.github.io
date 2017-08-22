@@ -467,13 +467,14 @@ img, .overlay {
   font-size: 1em;
   letter-spacing: 0.3em;
 }
-.col-md-4:hover img {
+.boost-block:hover img {
   /*filter: blur(5px);*/
   filter: brightness(40%);
 }
-.col-md-4:hover .overlay {
+.boost-block:hover .overlay {
   opacity: 1;
 }
+
 
 
 .gallery {
