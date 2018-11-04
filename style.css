@@ -54,12 +54,12 @@ nav a b {
 .main-nav {
   display: block;
   position: fixed;
-  height: 4em;
-  width: 3em;
+  /*height: 4em;
+  width: 3em;*/
 }
 
 .main-nav li {
-  padding: 0.8em;
+  padding: 0.75em;
 }
 
 nav .logo {
@@ -69,8 +69,8 @@ nav .logo {
   background-repeat: no-repeat;
   float: left;
   opacity: 1;
-  height: 3em;
-  width: 3em;
+  height: 2em;
+  width: 2em;
 }
 
 nav .logo:hover {
