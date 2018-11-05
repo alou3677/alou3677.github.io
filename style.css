@@ -367,7 +367,7 @@ h6 {
   padding: 5em 0;
   width: 100%;
 }
-.work-1, .work-2, .work-3 {
+.work {
   padding-top: 1.5em;
   padding-bottom: 1.5em;
 }
@@ -386,10 +386,10 @@ h6 {
   padding-left: 1em;
   vertical-align: top;
 }
-.work-1-title {
+.work-title {
   text-align: center;
 }
-.work-1-title h5, img {
+.work-title h5, img {
   display: inline-block;
   margin: 0;
 }
@@ -399,14 +399,12 @@ h6 {
   padding-left: 1em;
   vertical-align: baseline;
 }
-.work-2-title {
-  text-align: center;
+#PlayStation_logo {
+  max-width: 4.8em;
+  max-height: 4.8em;
+  padding-left: 1em;
+  vertical-align: top;
 }
-.work-2-title h5, img {
-  display: inline-block;
-  margin: 0;
-}
-
 .wo
 
 .resume {
