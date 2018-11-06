@@ -465,6 +465,13 @@ img, .overlay {
   font-size: 1em;
   letter-spacing: 0.3em;
 }
+.swoosh-block:hover img {
+  /*filter: blur(5px);*/
+  filter: brightness(40%);
+}
+.swoosh-block:hover .overlay {
+  opacity: 1;
+}
 .boost-block:hover img {
   /*filter: blur(5px);*/
   filter: brightness(40%);
